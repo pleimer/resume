@@ -1,0 +1,124 @@
+tesla: 
+  titleDescription: Full Stack Developer, primarily golang services backends
+  with React + Typescript frontends
+
+  languages: golang, typescript, SQL, Python, Bash
+  technologies: 
+    platform: Kubernetes, Docker, Jenkins
+    frontend: ReactJS, HTML, CSS
+  positions:
+    - title: Software Engineer
+      skills: gRPC, protobufs, Kafka, golang, postgres, cockroachdb, react
+      dates:
+        start: Jan 2022
+        end: Feb 2023
+      description:
+        - Oversaw the deployment of a hyperscalable MES system in the Austin
+        factory. I worked on call to mitigate problems, deploy hotfixes and
+        mitigate problems
+        
+        - Designed integration layer between several systems, utilizing kafka
+        and gRPC to ensure the seemless hand off of data to downstream systems
+        
+        - Interfaced with customers to quickly implement peripheral software to
+        satisfy immediate customer needs, later building more robust solutions
+        
+        - Developed new APIs with gRPC + protobufs
+
+        - Spearheaded efforts to intergrate event sourced systems with other
+        transactional systems, created extensive monitoring and dashboards to
+        monitor systems that allowed users to see volume and material shipments
+        problems at a glance
+        
+        - Integration work between event sourced systems and regular monoliths.
+        Insured seemless data flow and synchronized state. Mostly synchronizing
+        orders, quality and material flow. 
+        
+        - Worked among multiple teams and with customers to develope UIs in
+        ReacJS and Typescript for lineside associates to interface with downtime
+        reporting systems
+        
+        - Developed various dashboards for tracking trailer shipments and
+        automatic guided verhicles on maps.
+
+    - title: Senior Software Engineer
+      languages: Golang, Typescript, Python, Bash
+      techs: ReactJS, ThreeJS, Oauth, RBAC (Opal), Postgres, Jenkins, GH Actions, WebGL
+      dates: 
+        start: Mar 2023
+        end: July 2024
+      summary:
+        Responsible for spearheading the development of a versatile platform to
+        visualize real-time streaming production data, collaborating with a team
+        to design and implement frontend and backend components. Led
+        the development lifecycle, including architecture design and feature
+        prioritization, culminating in the delivery of a platform enabling clients
+        to configure 3D renderings of manufacturing sites with live production and
+        geospatial data integration.
+      description:
+        - tasked with creating a general purpose platform for visually
+        displaying live streaming production data, I worked with various
+        individuals to architect both frontend and backend portions of the
+        platform. I lead development, architecture and feature planning, creating a platform
+        that allowed customers to setup 3D representations of manufacturing
+        locations with live production and location data
+        - spearheaded and prioritized various customer requirements and asks
+        - architected frontend and backend and lead development of a streaming visualization project
+        that shipped realtime production data to clients built with React and
+        ThreeJS
+        - monorepo project with many services
+        - integrations with PLCs through OPCUA and Kafka, other system reporting DBs with SQL 
+        - built extensive feature sets such as in-app environment editors, 3D
+        collision algorithms (BVH + SA Hueristic), streaming architecture, Oauth
+        authentication, authorization, various GPU optimizations
+
+        - Developed a REST and Websocket streaming APIs for interfacing with frontend. 
+
+        - Generalized bespoke business logic by fanning out data streaming,
+        decoupling data model from data models of other systems 
+        
+        - architected and implemented a robust streaming architecture based on
+        Postgres Listen/Notify and websockets in a Golang service
+        
+        - architected a component relational model that allowed the flexibility
+        
+        - developed robust streaming architecture for third party data
+        
+        - Built an in app editor for manipulating and building 3D environments
+        with various tools for creating, placing and adjusting model meshes.
+        
+        - Implemented 3D algorithms for O(log(n)) broadphase collision detection
+        (BVH + SAH rotation), increasing max mesh count by 20,000%.
+        
+        - Developed shared abstractions such that other newer developers could
+        build new features without in depth 3D programming knowledge
+        
+        - Introduced various GPU optimizations such as mesh instancing and
+        shader adjustments for performance and visual improvements
+        
+        - implemented Oauth authentication flows and RBAC authorization
+        middlewares
+        
+        - extensive work developing 3D algorithms
+        
+        - developed state management strategies for our browser UI using
+        reducers, zustand stores and apis for interfacing with ThreeJS state
+        
+        - general project ownership like integration test suites, database
+        migration strategies and dev tooling, CI/CD with Jenkins and GHA,
+        releases, automated deplyments to k8s and semantic versioning
+        
+        - worked with various customers to determine needs to develope new
+        feature requirements and architecture
+
+        - Golang codegen
+
+        - Mentored colleagues to contribute to the project and performed extensive code reviews
+
+        - ran various tech talks for exposure and customer demos and training
+
+
+In a resume, what do I want to see? 
+- I do want to see leadership, proactiveness, and collaboritiveness. (In the interview is where I want to hear about introspection)
+- But what will catch my eye at first is talking about the developmental efforts
+- On the technical side, scalability
