@@ -38,7 +38,7 @@ work:
     position: 'Software Engineer'
     startDate: 2022-01
     endDate: 2023-02
-    summary: "Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Ausin for cell producton, implemented various features and integration efforts\n"
+    summary: "Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Ausin for cell producton, spearheaded various features and integration efforts\n"
     highlights:
       - 'Led several integration efforts between multiple teams to synchronize produced component state in an event sourced CQRS MES systems and other downstream and upstream transactional systems.'
       - 'Developed gRPC APIs and Kafka event APIs using Golang and Temporal to asynchronously update eventually consistent state of produced components and developed Golang services to synchronize the state across multiple systems'
