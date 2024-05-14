@@ -530,7 +530,7 @@
         <w:pPr>
           <w:pStyle w:val="Summary"/>
         </w:pPr>
-        <w:r><w:rPr></w:rPr><w:t>Paul is an experienced full stack software engineer in scalable web app systems. Let&amp;apos;s talk about positions in this arena!</w:t></w:r>
+        <w:r><w:rPr></w:rPr><w:t>I am an experienced full stack software engineer in scalable web app systems. I have done 3D web development as well, but I am open to all opportunities related to application and platform development in the Austin area. Let&amp;apos;s talk!</w:t></w:r>
       </w:p>
       <wx:sub-section>
   <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -582,7 +582,44 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Typescript  HTML  CSS</w:t>
+            <w:t>ReactJS  ThreeJS (webGL)  HTML  CSS</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:pPr>
+            <w:jc w:val="right"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:color w:val="989898"/>
+            </w:rPr>
+            <w:t>Languages</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:spacing w:val="22"/>
+            </w:rPr>
+            <w:t>Golang  Typescript / Javascript  SQL  Bash  Python  Java  C/C++</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -619,7 +656,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>golang  SQL  REST  gRPC  protobufs</w:t>
+            <w:t>REST  gRPC  Protobufs  Temporal  json-schema</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -693,7 +730,7 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Kubernetes  Docker  Jenkins  Github Actions</w:t>
+            <w:t>Kafka  Kubernetes  Splunk  Prometheus  Grafana  Docker  Jenkins  Github Actions</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -753,7 +790,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Mar 2023 — Jun 2024</w:t>
+        <w:t>Jan 2022 — Jun 2024</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -762,7 +799,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Lead the development of a general purpose digital-twin platform to visualize real-time production data, collaborating with a team to design and implement frontend and backend components. Led the development lifecycle, including architecture design and feature prioritization, culminating in the delivery of a platform enabling clients to configure 3D renderings of manufacturing sites with live production and geospatial data integration.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Led the full stack development of a general purpose 3D digital-twin visualization platform. Managed the full project lifecycle, from architecture design to feature prioritization, resulting in a configurable, site agnostic platform that enabled customers to build 3D virtual representations of production areas and bind live-streamed production data to virtual assets</w:t></w:r>
     </w:p>
 
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
@@ -778,7 +815,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Platform enabled customers to build digital twins of production areas by providing live streamed production data to be bound to custom geospatial environments that could be built in-app.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistance and streaming (Listen/Notify + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -793,7 +830,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistance and streaming (LISTEN/NOTIFY + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Collaborated with a team to run extensive architecture and UI design sessions, create development plans and project roadmaps. Mentored engineers and interns to onboard and contribute quickly.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -808,7 +845,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Implemented extensive design and optimizations for 3D environments, including an algorithm for O(log(n)) broadphase collision detection (BVH + SAH rotation), increasing max mesh count by 20,000% compared to other solutions</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Planned and implemented an in app editor, allowing users to build visualizations in the web browser. Implemented extensive feature sets in Golang, ReactJS, Typescript and ThreeJS involving complex state management in the frontend and backend, 3D algorithms and GPU optimizations</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -823,7 +860,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Designed middleware for Oauth flows in the frontend and backend, utilizing Azure for authentication and a proprietary OPAL solution for RBAC authorization</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Implemented extensive design and optimizations for 3D environments, including an algorithm for O(log(n)) broadphase collision detection (BVH + SAH rotation), increasing max mesh count by 20,000% compared to other open source solutions</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -838,7 +875,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Designed a general component relational data model for tracking components in a geospatial, 3D environment that utilized json-schema for parameter validation. This enabled flexible approach ...</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Architected a general component relational data model for tracking components in a spacial environment that utilized json-schema for parameter validation</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -853,7 +890,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Implemented REST and Websocket API along with middleware for Oauth authentication (azure), authorization RBAC (proprietary OPAL solution)</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Built middleware for Oauth (OpenID) flows in the frontend and backend, utilizing Azure IAM for authentication and a proprietary OPAL solution for RBAC authorization</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -868,7 +905,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Collaborated with a small team to run extensive architecture and UI design sessions, create development plans and project roadmaps</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Setup project backend, frontend project scaffolding and building blocks such as dependancy injection patterns, config patterns, streaming, state management, 3D primitives, etc to ease developer onboarding and project maintainence</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -883,7 +920,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Mentored interns and other engineers to contribute</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Integrated data streams from various external systems including Airflow, OPCUA (PLCs), application reporting DBs and Kafka topics</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -913,7 +950,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers to evaluate features and designs</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers in multiple regions to evaluate features and designs</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -932,7 +969,7 @@
       </w:r>
       
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>Tesla</w:t>
+          <w:t></w:t>
         </w:r>
       
       <w:r wsp:rsidR="00EA0B64">
@@ -942,7 +979,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Jan 2022 — Feb 2023</w:t>
+        <w:t>??? — Present</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -951,7 +988,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Managed and developed features for an Event Sourced MES system and other production systems, largely relating to cell production. Was the primary point of contact for cell production software in the Austin factory.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Ausin for cell producton. I served as the primary PoC and developed feature sets and led integration efforts accross various production software systems and teams</w:t></w:r>
     </w:p>
 
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
@@ -967,7 +1004,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Built gRPC and Kafka APIs and features to integrate data model of an Event Sourced MES application with various transactional systems. Efforts involved designing integration flows and developing new gRPC + protobuf APIs, Kafka Consumers and publishers, resulting consistency of quality and build data in downstream and upstream systems.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Led several integration efforts between multiple teams to synchronize produced component state in an event sourced CQRS MES systems and other downstream and upstream transactional systems.</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -982,7 +1019,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Worked with multiple teams and customers to develope backend and UI features using Golang, ReactJS and Typescript for lineside associates to interface with downtime reporting systems</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Developed gRPC APIs and Kafka event APIs using Golang and Temporal to asynchronously update eventually consistent state of produced components and developed Golang services to synchronize the state across multiple systems</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -997,7 +1034,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developed multiple React, ThreeJS and SVG (d3) dashboards for tracking trailer shipments and automated guided vehicle live location on maps that displayed various KPIs with livestreamed data</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Coordinated cross team efforts to solve infrastructure issues for our apps, including identifying a MTU size misconfiguration in a Kubernetes cluster load balancer that resulted in periodically dropped packets</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1012,7 +1049,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Lead cross team efforts to diagnose various issues in Tesla&amp;apos;s technical infrastructure that affected our apps, including identifying a TCP MTU size misconfiguration between external and in-cluster load balancers that caused arbitrary dropped packets in commucation over gRPC APIs.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Participated in on-call rotations for the CQRS system. Performed swift diagnosis and remediation in production environments, hot fixes and rectified data discrepancies to insure uninterrupted service delivery</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1027,82 +1064,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Built golang CLI tools that interfaced with our gRPC APIs for our support engineers to use to satisfy many bulk data tasks and ran training sessions</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developed various features in a proprietary protocol that enabled PLCs to automatically control lineside systems and update build models/statuses</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Instrumented apps with metrics and logs, built monitoring dashboards in Grafana and Splunk to monitor the health of our apps</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Maintained a business first mentality. In an era of extreme scale, this meant</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Interfaced directly with customers to quickly iterate on new features as rapidly as possible</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Participated in on-call rotations, swiftly diagnosing issues, deploying hotfixes, and rectifying data discrepancies in production environments to minimize downtime and ensure uninterrupted service delivery.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Instrumented services with metrics and logs, built Grafana and Splunk dashboards for increased app observability</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1131,7 +1093,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Jun 2020 — Dec 2021</w:t>
+        <w:t>May 2019 — Dec 2021</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -1156,7 +1118,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture drastically improving development cycle time by minimizing technical debt and increased throughput performance by more than 3x.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture that drastically improved development cycle time by minimizing technical debt and increased message throughput performance by more than 3x</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1171,7 +1133,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Identified gaps in cloud telemetry data gathered; developed OpenStack API and container stat monitoring agents in Python and Golang such as the collectd-libpod-stats plugin</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Implemented various services and APIs in Golang, Python, NodeJS and C that improved OpenStack and OpenShift cloud health monitoring and automated cloud provisioning processes</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1186,7 +1148,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Standardized metrics and event reporting data model for the telemetry framework and built standardized dashboards with Grafana, Prometheus and Elasticsearch to provide customers out of box cloud monitoring dashboards</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Standardized monitoring dashboards with Grafana, Prometheus and Elasticsearch</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1201,136 +1163,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Increased team efficiency by building out automation tooling for release processes in Python and onboarding new engineers to team processes</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Advanced Red Hat open source influence by working with upstream open source communities including CentOS, RHEL and RDO to package and release updates and packages as RPMs and Docker images</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Provided technical support for consultants and customers using the Service Telemetry Framework</w:t></w:r>
-    </w:p>
-
-  </wx:sub-section>
-
-
-  <wx:sub-section>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Associate Software Engineer, </w:t>
-      </w:r>
-      
-        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>Red Hat</w:t>
-        </w:r>
-      
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:rPr>
-          <w:rStyle w:val="FromTo"/>
-        </w:rPr>
-        <w:t>May 2019 — May 2020</w:t>
-      </w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      
-    </w:p>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Developed tooling in C and bash to stress test the telemetry framework and documented limitations/setup recommendations based on the results</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Identified and patched bugs in OpenStack APIs and Python services</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Implemented stop-gap CI runner solution in NodeJS and Golang to satisfy team’s CI requirements</w:t></w:r>
-    </w:p>
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
-      <w:pPr>
-        <w:pStyle w:val="ListParagraph"/>
-        <w:listPr>
-          <w:ilvl w:val="0"/>
-          <w:ilfo w:val="1"/>
-          <wx:t wx:val="•"/>
-          <wx:font wx:val="Calibri"/>
-        </w:listPr>
-        <w:rPr>
-          <w:sz-cs w:val="20"/>
-        </w:rPr>
-      </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Administered large scale bare metal and virtual Linux (RHEL) systems, fixing problems with file systems, networks, disk space, permissions, etc.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Advanced RedHat initiatives in open source projects by working with upstream communities (CentOS, RDO and Fedora) to package and release services and features as RPMs and Docker images</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1535,6 +1368,19 @@
         <w:t>2014 — 2019</w:t>
       </w:r>
     </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r wsp:rsidRPr="000A3AF0">
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+        <w:t>Computer Engineering, Electrical Engineering - Cum Laude, Bachelors</w:t>
+      </w:r>
+    </w:p>
 
 
   </wx:sub-section>
@@ -1606,7 +1452,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Won 2nd place in the educational category by building a mobile game using DART to make power grid optimization fun and educational for students</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Won 2nd place in the educational category by building a mobile game in Flutter that made power grid optimization fun and educational for students</w:t></w:r>
     </w:p>
 
 
@@ -1656,54 +1502,7 @@
 
       
 
-      <wx:sub-section>
-
-      <wx:pBdrGroup>
-        <wx:borders>
-          <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
-        </wx:borders>
-        <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
-          <w:pPr>
-            <w:pStyle w:val="Heading1"/>
-            <w:ind w:left="-720"/>      
-          </w:pPr>
-          <w:r>
-            <w:pict>
-              <w:binData w:name="wordml://03000015.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABEpJREFUeNrsV2tz2kYUXQmBBQghZDAYZFsmxo/4VbfOtNPp3+9MmzpxqF8EAyYEbCxjLITEQwipuwIMxIChqSeZqTT6sivp7rnnnj13hRmGAb6nCwff2WUBsgBZgCxAFiALkAXIAmQBsgBZgCxA/zNAxFdHkEppQdL7Y4c7EA578W8GKJ0+LSjDU3cS/uZ1iHhZQHpNqqlf/nTjDrcr4POXGqLapUg3DB20hXQi5N9h/xUkbLp/+9vz3y+F9pezDt/Gr7uB4QKmjuJF2YCPYr/sBvEXE7WHoewEhvXuR94aslgZuvVA1D8Hn6gPmURRezmGBi/t+vjPZHWKr2zM3s8zF25mUhvpk1R1uhzaYuLiVv+vGNLKheyna0FudqSMYzaSmo8GtVSq3IBDz8pvB0v4CLjHbwuKDjDK7agpTR3Y2KBXFytSs91BhtudLBuOvlp0ETMAUktn8fP75tjk7MzemxG10IunfyRFFXQU7cz/dZKpj+ESc3Jb+2t+YpptLxXjF4lKy8zGHYqEwzSJUpcgYWXZjE+Q1Ij8tNvEFUID4W5uBXEpU2r00Ng966t8J4z4OZ97qKtGPX/+Tl3/6aldEU84TycRGsw1H/1xe/HxMXGfqfXia9XC6SV7GKMH08jFUwL6zhndhuQ9JC+upUd2WjURuMMMDOalmCAnFU7PrkqtlnB5xvj3w8QkUd+kilABgPDyhwNoQDnxASkDSofb9NoAMGThU2k4jawC18focGyZBvpVrthEzCys73LIBJBVlh9NgI7sbIdp6B1GNffxYeIuy5dE5H7OcCyCD9Ti/GOpYdZiZ5cPxQIUWkIq5vvSeW/CdfjWfngFadPy5aqJPrgZ8q5thSjsyY6jo+us3SxhQZxQMrnaQGnMeTjXgOucmLWA6xGtXPw4B3QVJWeIheMPt+YWaCh96aCJBxnBBxTNoyG9thOqvL2pm1Y5/ygaat7tuBfVdksCgBnHkKaZtBKEo1+M7HXPddS6IirwrneMQGt2hkoNkoq5Tel0XlRURLON9HRjkLEY70QsCYV8fzGWdDzbXAkCDtsQF9q63WB8NKjkZH2oz9YQJmLOTXW/xsng6nJf4m4HlFm73agCsNCt0PIGX0uXXUtcP0y5oT4LiPKQxF1Ta1bzNRDtVo1gN/bZwZdqqaOjugowJnKww400GR9FAkEBspTVAY/3hLx5EBmSx71ZaJudniRqzs/A5ED9+rIwxhU14fJORoHoEDf2SMOxHhhXr96O7a9SJllGwiSZCDOxly2uhdxwSqtkj85utBEOfpyoIMlQCyv+CQ1ydTmEdjt0mpOc+CQM8iHTpTDP8obv2dYxzqlv8oWSaG43wsMdHvDkMyfbzPt4xxsx0hOILgVNc+85Nei41AinnrWXYS4fv7cbIac6bWf/PsmX27P1smm7PcBsLmqeX+EXWMcspwlVTCczQkVuGV/T7b/l9Y8AAwCSXjehR+kgEQAAAABJRU5ErkJggg==</w:binData>
-              <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
-                <v:imagedata src="wordml://03000015.png" o:title="fa-bicycle"/>
-              </v:shape>
-            </w:pict>
-          </w:r>
-          <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-            <w:t>INTERESTS</w:t>
-          </w:r>
-        </w:p>
-      </wx:pBdrGroup>
-
-  <wx:sub-section>
-
-    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
-      <w:pPr>
-        <w:pStyle w:val="Heading2"/>
-        <w:tabs>
-          <w:tab w:val="right" w:pos="9360"/>
-        </w:tabs>
-      </w:pPr>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>TODO</w:t>
-      </w:r>
-      <w:r wsp:rsidR="00EA0B64">
-        <w:tab/>
-      </w:r>
-      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>TODO, TODO</w:t>
-      </w:r>
-    </w:p>
-
-  </wx:sub-section>
-</wx:sub-section>
-
+      
 
       <w:sectPr wsp:rsidR="00B43FDC" wsp:rsidRPr="000A3AF0" wsp:rsidSect="001B7422">
         <w:pgSz w:w="12240" w:h="15840"/>

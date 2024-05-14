@@ -18,7 +18,11 @@
   "homepage": "https://github.com/pleimer/resume#readme",
   "dependencies": {
     "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-boilerplate": "^0.1.2",
+    "jsonresume-theme-engineering": "^0.2.0",
+    "jsonresume-theme-kendall": "^0.2.0",
     "jsonresume-theme-latte": "^1.0.2",
+    "jsonresume-theme-orbit": "^2.0.0",
     "wkhtmltopdf": "^0.4.0"
   }
 }
