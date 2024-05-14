@@ -28,12 +28,10 @@ location:
 
 employment:
   history:
-
     - employer: Tesla
-      position: Senior Software Engineer
+      position: Senior Software Engineer 
       location: Austin, Tx
-      start: 2023-03
-      end: 2024-06
+      start: 2022-01
       summary: >
         Led the full stack development of a general purpose 3D digital-twin
         visualization platform. Managed the full project lifecycle, from
@@ -64,13 +62,13 @@ employment:
 
       - Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers in multiple regions to evaluate features and designs
 
-    - position: Software Engineer
+    - employer: Tesla
+      position: Software Engineer 
       location: Austin, Tx
       start: 2022-01
       end: 2023-02
       summary: >
         Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Austin for cell production and spearheaded various feature and integration efforts
-
       highlights:
 
       - Led several integration efforts between multiple teams to synchronize manufactured component state in an event sourced CQRS MES systems and other downstream and upstream transactional systems.
@@ -120,7 +118,7 @@ education:
     start: 2014-08
     end: 2019-05
     url: https://www.ncsu.edu/
-    studyType: Bachelor of Science
+    studyType: Bachelor of Science, Cum Laude
     area: 
       - Computer Engineering
       - Electrical Engineering

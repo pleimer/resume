@@ -20,8 +20,7 @@ work:
   -
     company: Tesla
     position: 'Senior Software Engineer'
-    startDate: 2023-03
-    endDate: 2024-06
+    startDate: 2022-01
     summary: "Led the full stack development of a general purpose 3D digital-twin visualization platform. Managed the full project lifecycle, from architecture design to feature prioritization, resulting in a configurable, site agnostic platform that enabled customers to build 3D virtual representations of production areas and bind live-streamed production data to virtual assets\n"
     highlights:
       - 'Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistence and streaming (Listen/Notify + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions'
@@ -35,12 +34,13 @@ work:
       - 'Managed all aspects of the project development, including automation tooling (codegen, db migrations, testing), mono repo services structure, integration test suites (testify, playwright), quality assurance, and deployment with Docker, Kubernetes and Jenkins'
       - 'Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers in multiple regions to evaluate features and designs'
   -
+    company: Tesla
     position: 'Software Engineer'
     startDate: 2022-01
     endDate: 2023-02
-    summary: "Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Austin for cell production and spearheaded various features and integration efforts\n"
+    summary: "Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Austin for cell production and spearheaded various feature and integration efforts\n"
     highlights:
-      - 'Led several integration efforts between multiple teams to synchronize produced component state in an event sourced CQRS MES systems and other downstream and upstream transactional systems.'
+      - 'Led several integration efforts between multiple teams to synchronize manufactured component state in an event sourced CQRS MES systems and other downstream and upstream transactional systems.'
       - 'Developed gRPC APIs and Kafka event APIs using Golang and Temporal to asynchronously update eventually consistent state of produced components and developed Golang services to synchronize the state across multiple systems'
       - 'Coordinated cross team efforts to solve infrastructure issues for our apps, including identifying a MTU size misconfiguration in a Kubernetes cluster load balancer that resulted in periodically dropped packets'
       - 'Participated in on-call rotations for the CQRS system. Performed swift diagnosis and remediation in production environments, hot fixes and rectified data discrepancies to insure uninterrupted service delivery'
@@ -81,7 +81,7 @@ education:
     area:
       - 'Computer Engineering'
       - 'Electrical Engineering'
-    studyType: 'Bachelor of Science'
+    studyType: 'Bachelor of Science, Cum Laude'
 skills:
   -
     name: Languages
@@ -127,7 +127,7 @@ skills:
       - 'Github Actions'
 awards:
   -
-    title: '2nd Place Engineering Design Fair'
+    title: '2nd Place Engineering Senior Design Fair'
     date: 2019-05
     awarder: 'NCSU EE/CPE dep'
     summary: 'Won 2nd place in the educational category by building a mobile game in Flutter that made power grid optimization fun and educational for students'
