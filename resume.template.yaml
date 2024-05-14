@@ -126,7 +126,7 @@ employment:
       - OpenShift
       - C
       highlights:
-      - Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture drastically improving development cycle time by minimizing technical debt and increased throughput performance by more than 3x
+      - Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture that drastically improved development cycle time by minimizing technical debt and increased message throughput performance by more than 3x
       - Implemented various services and APIs in Golang, Python, NodeJS and C that improved OpenStack and OpenShift cloud health monitoring and automated cloud provisioning processes
       - Standardized monitoring dashboards with Grafana, Prometheus and Elasticsearch
       - Advanced RedHat initiatives in open source projects by working with upstream communities (CentOS, RDO and Fedora) to package and release services and features as RPMs and Docker images
