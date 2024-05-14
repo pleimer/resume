@@ -6,7 +6,7 @@ basics:
   phone: 'Contact for info'
   website: 'https://linkedin.com/in/paulleimer'
   name: 'Paul Leimer'
-  summary: 'I am an experienced full stack software engineer in scalable web app systems. I have done 3D web development as well, but I am open to all opportunities related to application and platform development in the Austin area. Let''s talk!'
+  summary: 'I am an experienced full stack software engineer in scalable web app systems, open to all opportunities related to application and platform development in the Austin area. Let''s talk!'
   profiles:
     -
       network: Twitter
@@ -24,21 +24,21 @@ work:
     endDate: 2024-06
     summary: "Led the full stack development of a general purpose 3D digital-twin visualization platform. Managed the full project lifecycle, from architecture design to feature prioritization, resulting in a configurable, site agnostic platform that enabled customers to build 3D virtual representations of production areas and bind live-streamed production data to virtual assets\n"
     highlights:
-      - 'Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistance and streaming (Listen/Notify + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions'
-      - 'Collaborated with a team to run extensive architecture and UI design sessions, create development plans and project roadmaps. Mentored engineers and interns to onboard and contribute quickly.'
-      - 'Planned and implemented an in app editor, allowing users to build visualizations in the web browser. Implemented extensive feature sets in Golang, ReactJS, Typescript and ThreeJS involving complex state management in the frontend and backend, 3D algorithms and GPU optimizations'
-      - 'Implemented extensive design and optimizations for 3D environments, including an algorithm for O(log(n)) broadphase collision detection (BVH + SAH rotation), increasing max mesh count by 20,000% compared to other open source solutions'
+      - 'Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistence and streaming (Listen/Notify + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions'
+      - 'Planned and implemented an in-app environment editor, allowing users to build visualizations in the web browser. Implemented extensive feature sets in Golang, ReactJS, Typescript and ThreeJS involving complex state management in the frontend and backend, 3D algorithms and GPU optimizations'
       - 'Architected a general component relational data model for tracking components in a spacial environment that utilized json-schema for parameter validation'
+      - 'Implemented extensive design and optimizations for 3D environments, including an algorithm for O(log(n)) broad phase collision detection (BVH + SAH rotation), increasing max mesh count by 20,000% compared to other open source solutions'
+      - 'Collaborated with a team to run extensive architecture and UI design sessions, create development plans and project roadmaps. Mentored engineers and interns to onboard and contribute quickly.'
       - 'Built middleware for Oauth (OpenID) flows in the frontend and backend, utilizing Azure IAM for authentication and a proprietary OPAL solution for RBAC authorization'
-      - 'Setup project backend, frontend project scaffolding and building blocks such as dependancy injection patterns, config patterns, streaming, state management, 3D primitives, etc to ease developer onboarding and project maintainence'
+      - 'Setup project backend, frontend project scaffolding and building blocks such as dependency injection patterns, config patterns, streaming, state management, 3D primitives, etc to ease developer onboarding and project maintenance'
       - 'Integrated data streams from various external systems including Airflow, OPCUA (PLCs), application reporting DBs and Kafka topics'
-      - 'Managed all aspects of the project development, including automation tooling (codegen, db migrations, testing), monorepo services structure, integration test suites (testify, playwright), quality assurance, and deployment with Docker, Kubernetes and Jenkins'
+      - 'Managed all aspects of the project development, including automation tooling (codegen, db migrations, testing), mono repo services structure, integration test suites (testify, playwright), quality assurance, and deployment with Docker, Kubernetes and Jenkins'
       - 'Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers in multiple regions to evaluate features and designs'
   -
     position: 'Software Engineer'
     startDate: 2022-01
     endDate: 2023-02
-    summary: "Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Ausin for cell producton, spearheaded various features and integration efforts\n"
+    summary: "Oversaw the provisioning of an event sourced CQRS manufacturing execution system in Austin for cell production and spearheaded various features and integration efforts\n"
     highlights:
       - 'Led several integration efforts between multiple teams to synchronize produced component state in an event sourced CQRS MES systems and other downstream and upstream transactional systems.'
       - 'Developed gRPC APIs and Kafka event APIs using Golang and Temporal to asynchronously update eventually consistent state of produced components and developed Golang services to synchronize the state across multiple systems'
@@ -50,7 +50,7 @@ work:
     position: 'Software Engineer'
     startDate: 2019-05
     endDate: 2021-12
-    summary: "Worked with a team to implement and document the unified Service Telemetry Framework, the official mulit-regional OpenStack + OpenShift (Kubernetes) cloud health monitoring framework\n"
+    summary: "Worked with a team to implement and document the unified Service Telemetry Framework, the official multi regional OpenStack + OpenShift (Kubernetes) cloud health monitoring framework\n"
     highlights:
       - 'Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture that drastically improved development cycle time by minimizing technical debt and increased message throughput performance by more than 3x'
       - 'Implemented various services and APIs in Golang, Python, NodeJS and C that improved OpenStack and OpenShift cloud health monitoring and automated cloud provisioning processes'
@@ -62,7 +62,7 @@ work:
     startDate: 2018-05
     endDate: 2018-08
     highlights:
-      - 'Developed a web apps using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes'
+      - 'Developed a web app using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes'
       - 'Built dashboards to configure and run tests that executed profiling tools between geographically dispersed satellite gateways, collected results via REST queries, persisted in MongoDB and displayed results in Angular JS dashboards'
       - 'Implemented system for persisting test configurations and scheduling test execution cron jobs'
   -
@@ -71,7 +71,7 @@ work:
     startDate: 2017-08
     endDate: 2017-12
     highlights:
-      - 'Designed, built and documented firmware and hardware design for an ISP firmware flasher using Atmel MCUs and C++, replacing a legacy system and decreasing flash times by over 300%'
+      - 'Designed, built and documented firmware and hardware for an ISP firmware flasher using Atmel MCUs and C++, replacing a legacy system and decreasing flash times by over 300%'
       - 'Characterized noise of integrated circuit operation in tool-changer sensors for accurate estimates on product documentation (< .1%) using Python and statistical models'
 education:
   -
