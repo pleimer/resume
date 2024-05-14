@@ -102,7 +102,7 @@ employment:
       start: 2018-05
       end: 2018-08
       highlights: 
-        - Developed a web apps using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes
+        - Developed a web app using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes
         - Built dashboards to configure and run tests that executed profiling tools between geographically dispersed satellite gateways, collected results via REST queries, persisted in MongoDB and displayed results in Angular JS dashboards
         - Implemented system for persisting test configurations and scheduling test execution cron jobs
 
@@ -112,7 +112,7 @@ employment:
       start: 2017-08
       end: 2017-12
       highlights: 
-      - Designed, built and documented firmware and hardware design for an ISP firmware flasher using Atmel MCUs and C++, replacing a legacy system and decreasing flash times by over 300%
+      - Designed, built and documented firmware and hardware for an ISP firmware flasher using Atmel MCUs and C++, replacing a legacy system and decreasing flash times by over 300%
       - Characterized noise of integrated circuit operation in tool-changer sensors for accurate estimates on product documentation (< .1%) using Python and statistical models
 education: 
   history:
