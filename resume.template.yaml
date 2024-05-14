@@ -30,13 +30,13 @@ employment:
       position: Senior Software Engineer
       location: Austin, Tx
       summary: >
-        Lead the development of a general purpose digital-twin
-        platform to visualize real-time production data, collaborating
-        with a team to design and implement frontend and backend components. Led
-        the development lifecycle, including architecture design and feature
-        prioritization, culminating in the delivery of a platform enabling clients
-        to configure 3D renderings of manufacturing sites with live production and
-        geospatial data integration.
+        Led the creation of a versatile digital-twin platform for real-time
+        production data visualization, overseeing frontend and backend
+        development. Managed the entire development cycle, from architecture
+        design to feature prioritization, resulting in a configurable platform
+        for clients to integrate live production data into 3D renderings of
+        manufacturing sites.
+
       start: 2023-03
       end: 2024-06
       keywords:
@@ -107,53 +107,29 @@ employment:
 
       - Instrumented apps with metrics and logs, built monitoring dashboards in Grafana and Splunk to monitor the health of our apps
 
-      - Maintained a business first mentality. In an era of extreme scale, this meant  
-
-      - Interfaced directly with customers to quickly iterate on new features as rapidly as possible
-
       - Participated in on-call rotations, swiftly diagnosing issues, deploying hotfixes, and rectifying data discrepancies in production environments to minimize downtime and ensure uninterrupted service delivery.
 
     - employer: Red Hat
       position: Software Engineer
       location: Raleigh, NC
       summary: Worked with a team to implement and document the unified Service Telemetry Framework, the official mulit-regional OpenStack + OpenShift (Kubernetes) cloud health monitoring framework
-      start: 2020-06
+      start: 2019-05
       end: 2021-12
       keywords:
       - Golang
       - Python
+      - Javascript (NodeJS)
       - Elasticsearch
       - Prometheus
       - Kubernetes
       - OpenStack
       - OpenShift
-      highlights:
-      - Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture drastically improving development cycle time by minimizing technical debt and increased throughput performance by more than 3x.
-      - Identified gaps in cloud telemetry data gathered; developed OpenStack API and container stat monitoring agents in Python and Golang such as the collectd-libpod-stats plugin
-      - Standardized metrics and event reporting data model for the telemetry framework and built standardized dashboards with Grafana, Prometheus and Elasticsearch to provide customers out of box cloud monitoring dashboards
-      - Increased team efficiency by building out automation tooling for release processes in Python and onboarding new engineers to team processes
-      - Advanced Red Hat open source influence by working with upstream open source communities including CentOS, RHEL and RDO to package and release updates and packages as RPMs and Docker images 
-      - Provided technical support for consultants and customers using the Service Telemetry Framework
-    - employer: Red Hat
-      position: Associate Software Engineer
-      location: Raleigh, NC
-      summary: ""
-      start: 2019-05
-      end: 2020-05
-      keywords: 
-      - Golang
-      - Python
       - C
-      - Kubernetes
-      - OpenStack
-      - OpenShift
-
       highlights:
-      - Developed tooling in C and bash to stress test the telemetry framework and documented limitations/setup recommendations based on the results
-      - Identified and patched bugs in OpenStack APIs and Python services
-      - Implemented stop-gap CI runner solution in NodeJS and Golang to satisfy team’s CI requirements
-      - Administered large scale bare metal and virtual Linux (RHEL) systems, fixing problems with file systems, networks, disk space, permissions, etc.
-
+      - Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture drastically improving development cycle time by minimizing technical debt and increased throughput performance by more than 3x
+      - Implemented various services and APIs in Golang, Python, NodeJS and C that improved OpenStack and OpenShift cloud health monitoring and automated cloud provisioning processes
+      - Standardized monitoring dashboards with Grafana, Prometheus and Elasticsearch
+      - Advanced RedHat initiatives in open source projects by working with upstream communities (CentOS, RDO and Fedora) to package and release services and features as RPMs and Docker images
     - employer: Hughes Network Systems
       position: Software Engineering Intern
       location: Gaithersburg, MD
@@ -237,8 +213,3 @@ social:
     network: Linkedin
     url: linkedin.com/in/paulleimer
     user: paulleimer
-interests:
-  - name: TODO
-    keywords:
-      - TODO
-      - TODO

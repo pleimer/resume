@@ -1,177 +1,172 @@
 {
-  "basics": {
+  "name": "Paul Leimer",
+  "info": {
     "label": "Senior Software Engineer",
+    "brief": "Paul is an experienced full stack software engineer in scalable web app systems. Let's talk about positions in this arena!"
+  },
+  "contact": {
     "email": "pfbleimer@gmail.com",
-    "phone": "Contact for info",
-    "name": "Paul Leimer",
-    "summary": "Paul is an experienced full stack software engineer in scalable web app systems. Let's talk about positions in this arena!",
-    "profiles": [
+    "phone": "Contact for info"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2024-05-14T13:47:04.983Z"
+  },
+  "employment": {
+    "history": [
       {
-        "network": "Twitter",
-        "username": "TODO",
-        "url": "TODO"
+        "position": "Senior Software Engineer",
+        "employer": "Tesla",
+        "summary": "Led the creation of a versatile digital-twin platform for real-time production data visualization, overseeing frontend and backend development. Managed the entire development cycle, from architecture design to feature prioritization, resulting in a configurable platform for clients to integrate live production data into 3D renderings of manufacturing sites.\n",
+        "start": "2023-03",
+        "end": "2024-06",
+        "keywords": [],
+        "highlights": [
+          "Platform enabled customers to build digital twins of production areas by providing live streamed production data to be bound to custom geospatial environments that could be built in-app.",
+          "Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistance and streaming (LISTEN/NOTIFY + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions",
+          "Implemented extensive design and optimizations for 3D environments, including an algorithm for O(log(n)) broadphase collision detection (BVH + SAH rotation), increasing max mesh count by 20,000% compared to other solutions",
+          "Designed middleware for Oauth flows in the frontend and backend, utilizing Azure for authentication and a proprietary OPAL solution for RBAC authorization",
+          "Designed a general component relational data model for tracking components in a geospatial, 3D environment that utilized json-schema for parameter validation. This enabled flexible approach ...",
+          "Implemented REST and Websocket API along with middleware for Oauth authentication (azure), authorization RBAC (proprietary OPAL solution)",
+          "Collaborated with a small team to run extensive architecture and UI design sessions, create development plans and project roadmaps",
+          "Mentored interns and other engineers to contribute",
+          "Managed all aspects of the project development, including automation tooling (codegen, db migrations, testing), monorepo services structure, integration test suites (testify, playwright), quality assurance, and deployment with Docker, Kubernetes and Jenkins",
+          "Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers to evaluate features and designs"
+        ]
       },
       {
-        "network": "Linkedin",
-        "username": "paulleimer",
-        "url": "linkedin.com/in/paulleimer"
+        "position": "Software Engineer",
+        "employer": "Tesla",
+        "summary": "Managed and developed features for an Event Sourced MES system and other production systems, largely relating to cell production. Was the primary point of contact for cell production software in the Austin factory.\n",
+        "start": "2022-01",
+        "end": "2023-02",
+        "keywords": [],
+        "highlights": [
+          "Built gRPC and Kafka APIs and features to integrate data model of an Event Sourced MES application with various transactional systems. Efforts involved designing integration flows and developing new gRPC + protobuf APIs, Kafka Consumers and publishers, resulting consistency of quality and build data in downstream and upstream systems.",
+          "Worked with multiple teams and customers to develope backend and UI features using Golang, ReactJS and Typescript for lineside associates to interface with downtime reporting systems",
+          "Developed multiple React, ThreeJS and SVG (d3) dashboards for tracking trailer shipments and automated guided vehicle live location on maps that displayed various KPIs with livestreamed data",
+          "Lead cross team efforts to diagnose various issues in Tesla's technical infrastructure that affected our apps, including identifying a TCP MTU size misconfiguration between external and in-cluster load balancers that caused arbitrary dropped packets in commucation over gRPC APIs.",
+          "Built golang CLI tools that interfaced with our gRPC APIs for our support engineers to use to satisfy many bulk data tasks and ran training sessions",
+          "Developed various features in a proprietary protocol that enabled PLCs to automatically control lineside systems and update build models/statuses",
+          "Instrumented apps with metrics and logs, built monitoring dashboards in Grafana and Splunk to monitor the health of our apps",
+          "Participated in on-call rotations, swiftly diagnosing issues, deploying hotfixes, and rectifying data discrepancies in production environments to minimize downtime and ensure uninterrupted service delivery."
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "employer": "Red Hat",
+        "summary": "Worked with a team to implement and document the unified Service Telemetry Framework, the official mulit-regional OpenStack + OpenShift (Kubernetes) cloud health monitoring framework",
+        "start": "2019-05",
+        "end": "2021-12",
+        "keywords": [],
+        "highlights": [
+          "Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture drastically improving development cycle time by minimizing technical debt and increased throughput performance by more than 3x",
+          "Implemented various services and APIs in Golang, Python, NodeJS and C that improved OpenStack and OpenShift (kubernetes) cloud health monitoring and automated cloud provisioning processes",
+          "Standardized monitoring dashboards with Grafana, Prometheus and Elasticsearch",
+          "Advanced RedHat initiatives in open source projects by working with upstream communities (CentOS, RDO and Fedora) to package and release services and features as RPMs and Docker images"
+        ]
+      },
+      {
+        "position": "Software Engineering Intern",
+        "employer": "Hughes Network Systems",
+        "summary": "Developed a web apps using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes",
+        "start": "2018-05",
+        "end": "2018-08",
+        "keywords": [],
+        "highlights": [
+          "Built dashboards to configure and run tests that executed profiling tools between geographically dispersed satellite gateways, collected results via REST queries, persisted in MongoDB and displayed results in Angular JS dashboards",
+          "Implemented system for persisting test configurations and scheduling test execution cron jobs"
+        ]
+      },
+      {
+        "position": "Software Engineering Intern",
+        "employer": "ATI Industrial Automation",
+        "summary": "Designed, built and documented firmware and hardware design for an ISP firmware flasher using Atmel MCUs and C++, replacing a legacy system and decreasing flash times by over 300%",
+        "start": "2017-08",
+        "end": "2017-12",
+        "keywords": [],
+        "highlights": [
+          "Compiled user manuals, design decision analyses and build instructions so that more programmers could be manufactured by other teams. Presented the final project to senior management",
+          "Characterized noise of integrated circuit operation in tool-changer sensors for accurate estimates on product documentation (< .1%) using Python and statistical models"
+        ]
       }
     ]
   },
-  "work": [
-    {
-      "company": "Tesla",
-      "position": "Senior Software Engineer",
-      "startDate": "2023-03",
-      "endDate": "2024-06",
-      "summary": "Lead the development of a general purpose digital-twin platform to visualize real-time production data, collaborating with a team to design and implement frontend and backend components. Led the development lifecycle, including architecture design and feature prioritization, culminating in the delivery of a platform enabling clients to configure 3D renderings of manufacturing sites with live production and geospatial data integration.\n",
-      "highlights": [
-        "Platform enabled customers to build digital twins of production areas by providing live streamed production data to be bound to custom geospatial environments that could be built in-app.",
-        "Led the planning and development for both frontend and backend services, utilizing Postgres (SQL) for persistance and streaming (LISTEN/NOTIFY + Websocket), Golang for backend services, middleware and Websocket + REST APIs, and ReactJS + Typescript paired with ThreeJS for primary UI functions",
-        "Implemented extensive design and optimizations for 3D environments, including an algorithm for O(log(n)) broadphase collision detection (BVH + SAH rotation), increasing max mesh count by 20,000% compared to other solutions",
-        "Designed middleware for Oauth flows in the frontend and backend, utilizing Azure for authentication and a proprietary OPAL solution for RBAC authorization",
-        "Designed a general component relational data model for tracking components in a geospatial, 3D environment that utilized json-schema for parameter validation. This enabled flexible approach ...",
-        "Implemented REST and Websocket API along with middleware for Oauth authentication (azure), authorization RBAC (proprietary OPAL solution)",
-        "Collaborated with a small team to run extensive architecture and UI design sessions, create development plans and project roadmaps",
-        "Mentored interns and other engineers to contribute",
-        "Managed all aspects of the project development, including automation tooling (codegen, db migrations, testing), monorepo services structure, integration test suites (testify, playwright), quality assurance, and deployment with Docker, Kubernetes and Jenkins",
-        "Spearheaded adoption of the platform throughout the company by running tech talks, customer and director demos and working directly with customers to evaluate features and designs"
-      ]
-    },
-    {
-      "company": "Tesla",
-      "position": "Software Engineer",
-      "startDate": "2022-01",
-      "endDate": "2023-02",
-      "summary": "Managed and developed features for an Event Sourced MES system and other production systems, largely relating to cell production. Was the primary point of contact for cell production software in the Austin factory.\n",
-      "highlights": [
-        "Built gRPC and Kafka APIs and features to integrate data model of an Event Sourced MES application with various transactional systems. Efforts involved designing integration flows and developing new gRPC + protobuf APIs, Kafka Consumers and publishers, resulting consistency of quality and build data in downstream and upstream systems.",
-        "Worked with multiple teams and customers to develope backend and UI features using Golang, ReactJS and Typescript for lineside associates to interface with downtime reporting systems",
-        "Developed multiple React, ThreeJS and SVG (d3) dashboards for tracking trailer shipments and automated guided vehicle live location on maps that displayed various KPIs with livestreamed data",
-        "Lead cross team efforts to diagnose various issues in Tesla's technical infrastructure that affected our apps, including identifying a TCP MTU size misconfiguration between external and in-cluster load balancers that caused arbitrary dropped packets in commucation over gRPC APIs.",
-        "Built golang CLI tools that interfaced with our gRPC APIs for our support engineers to use to satisfy many bulk data tasks and ran training sessions",
-        "Developed various features in a proprietary protocol that enabled PLCs to automatically control lineside systems and update build models/statuses",
-        "Instrumented apps with metrics and logs, built monitoring dashboards in Grafana and Splunk to monitor the health of our apps",
-        "Maintained a business first mentality. In an era of extreme scale, this meant",
-        "Interfaced directly with customers to quickly iterate on new features as rapidly as possible",
-        "Participated in on-call rotations, swiftly diagnosing issues, deploying hotfixes, and rectifying data discrepancies in production environments to minimize downtime and ensure uninterrupted service delivery."
-      ]
-    },
-    {
-      "company": "Red Hat",
-      "position": "Software Engineer",
-      "startDate": "2020-06",
-      "endDate": "2021-12",
-      "summary": "Worked with a team to implement and document the unified Service Telemetry Framework, the official mulit-regional OpenStack + OpenShift (Kubernetes) cloud health monitoring framework",
-      "highlights": [
-        "Led architectural overhaul of core gateway golang service, implementing a micro-kernel architecture drastically improving development cycle time by minimizing technical debt and increased throughput performance by more than 3x.",
-        "Identified gaps in cloud telemetry data gathered; developed OpenStack API and container stat monitoring agents in Python and Golang such as the collectd-libpod-stats plugin",
-        "Standardized metrics and event reporting data model for the telemetry framework and built standardized dashboards with Grafana, Prometheus and Elasticsearch to provide customers out of box cloud monitoring dashboards",
-        "Increased team efficiency by building out automation tooling for release processes in Python and onboarding new engineers to team processes",
-        "Advanced Red Hat open source influence by working with upstream open source communities including CentOS, RHEL and RDO to package and release updates and packages as RPMs and Docker images",
-        "Provided technical support for consultants and customers using the Service Telemetry Framework"
-      ]
-    },
-    {
-      "company": "Red Hat",
-      "position": "Associate Software Engineer",
-      "startDate": "2019-05",
-      "endDate": "2020-05",
-      "summary": "",
-      "highlights": [
-        "Developed tooling in C and bash to stress test the telemetry framework and documented limitations/setup recommendations based on the results",
-        "Identified and patched bugs in OpenStack APIs and Python services",
-        "Implemented stop-gap CI runner solution in NodeJS and Golang to satisfy team’s CI requirements",
-        "Administered large scale bare metal and virtual Linux (RHEL) systems, fixing problems with file systems, networks, disk space, permissions, etc."
-      ]
-    },
-    {
-      "company": "Hughes Network Systems",
-      "position": "Software Engineering Intern",
-      "startDate": "2018-05",
-      "endDate": "2018-08",
-      "summary": "Developed a web apps using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes",
-      "highlights": [
-        "Built dashboards to configure and run tests that executed profiling tools between geographically dispersed satellite gateways, collected results via REST queries, persisted in MongoDB and displayed results in Angular JS dashboards",
-        "Implemented system for persisting test configurations and scheduling test execution cron jobs"
-      ]
-    },
-    {
-      "company": "ATI Industrial Automation",
-      "position": "Software Engineering Intern",
-      "startDate": "2017-08",
-      "endDate": "2017-12",
-      "summary": "Designed, built and documented firmware and hardware design for an ISP firmware flasher using Atmel MCUs and C++, replacing a legacy system and decreasing flash times by over 300%",
-      "highlights": [
-        "Compiled user manuals, design decision analyses and build instructions so that more programmers could be manufactured by other teams. Presented the final project to senior management",
-        "Characterized noise of integrated circuit operation in tool-changer sensors for accurate estimates on product documentation (< .1%) using Python and statistical models"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "North Carolina State University",
-      "startDate": "2014-08",
-      "endDate": "2019-05"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Frontend",
-      "keywords": [
-        "Typescript",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "name": "Backend",
-      "keywords": [
-        "golang",
-        "SQL",
-        "REST",
-        "gRPC",
-        "protobufs"
-      ]
-    },
-    {
-      "name": "Databases",
-      "keywords": [
-        "Postgres",
-        "MySQL",
-        "MongoDB"
-      ]
-    },
-    {
-      "name": "Platform",
-      "keywords": [
-        "Kubernetes",
-        "Docker",
-        "Jenkins",
-        "Github Actions"
-      ]
-    }
-  ],
-  "awards": [
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "North Carolina State University",
+        "start": "2014-08",
+        "end": "2019-05",
+        "summary": ""
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Frontend",
+        "skills": [
+          "Typescript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name": "Backend",
+        "skills": [
+          "golang",
+          "SQL",
+          "REST",
+          "gRPC",
+          "protobufs"
+        ]
+      },
+      {
+        "name": "Databases",
+        "skills": [
+          "Postgres",
+          "MySQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Platform",
+        "skills": [
+          "Kubernetes",
+          "Docker",
+          "Jenkins",
+          "Github Actions"
+        ]
+      }
+    ]
+  },
+  "recognition": [
     {
       "title": "2nd Place Engineering Design Fair",
       "date": "2019-05",
-      "awarder": "NCSU EE/CPE dep",
+      "from": "NCSU EE/CPE dep",
       "summary": "Won 2nd place in the educational category by building a mobile game using DART to make power grid optimization fun and educational for students"
     },
     {
       "title": "Eagle Scout",
       "date": "2014-04",
-      "awarder": "Boy Scouts of America"
+      "from": "Boy Scouts of America"
     }
   ],
-  "interests": [
+  "social": [
     {
-      "keywords": [
-        "TODO",
-        "TODO"
-      ],
-      "name": "TODO"
+      "label": "Twitter",
+      "network": "Twitter",
+      "url": "TODO",
+      "user": "TODO"
+    },
+    {
+      "label": "Linkedin",
+      "network": "Linkedin",
+      "url": "linkedin.com/in/paulleimer",
+      "user": "paulleimer"
     }
   ]
 }
