@@ -4,6 +4,10 @@ The resume template uses the [FRESH schema definition](https://github.com/fresh-
 
 This uses a custom version of the `jsonresume-theme-engineering` implementation.
 
+Resume updates should be made to `resume.template.yaml`. 
+
+The job does build a pdf version, however I have noticed a better PDF can be created by opening the html resume in the web browser and printing it to PDF. I suggest doing this when sending resumes to recruiters and companies.
+
 # Build
 `make build` - builds FRESH template with public vars and renders html, pdf, png and yaml versions.
 

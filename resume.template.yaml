@@ -99,8 +99,11 @@ employment:
       location: Gaithersburg, MD
       start: 2018-05
       end: 2018-08
+      summary: >
+        Developed web apps on a MEAN + python stack to enable the configuration,
+        automation and execution of tests that hardware engineers must run
+        frequently, reducing test time from hours to minutes
       highlights: 
-        - Developed a web app using a MEAN + python stack to enable the configuration, automation and execution of tests that hardware engineers must run frequently, reducing test time from hours to minutes
         - Built dashboards to configure and run tests that executed profiling tools between geographically dispersed satellite gateways, collected results via REST queries, persisted in MongoDB and displayed results in Angular JS dashboards
         - Implemented system for persisting test configurations and scheduling test execution cron jobs
 

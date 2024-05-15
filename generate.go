@@ -22,7 +22,23 @@ func Wrap(err error, message string) error {
 
 func main() {
 
-	data, err := os.ReadFile("vars.public.json")
+	args := os.Args[1:]
+
+	configFile := "vars.public.json"
+
+	if len(args) >= 2 {
+
+		if args[0] != "--config" && args[0] != "-c" {
+			fmt.Println("Usage: program_name --config <config_file>")
+			fmt.Println("       program_name -c <config_file>")
+
+			return
+		} else {
+			configFile = args[1]
+		}
+	}
+
+	data, err := os.ReadFile(configFile)
 	if err != nil {
 		panic(Wrap(err, "reading vars file"))
 	}
